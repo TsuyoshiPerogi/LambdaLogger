@@ -9,3 +9,5 @@ Fully complies with the latest OBD-II standard, SAE J1979.
 
 Easily adaptable for LCD screens. Can easily be change to log any 2 items available in the OBD-2 systems service mode 01 list(https://en.wikipedia.org/wiki/OBD-II_PIDs#) or could be used to read and clear DTC codes. 
 
+Easily attaptable to use the LambdaShield and a Bosch wide band o2 in place of OEM wide band.
+
