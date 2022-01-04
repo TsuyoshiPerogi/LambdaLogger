@@ -1,7 +1,7 @@
 # LambdaLogger
-Arduino based tool for vehicles with OEM wide band O2 sensors. Written by TsuYoshi Perogi (hasherbasher@protonmail.com)
+Arduino based tool for vehicles with OEM wide band O2 sensors. Written by TsuYoshi Perogi, (hasherbasher@protonmail.com)
 
-Uses OBD-2 port on wide band equipped vehicles, most honda/audi/VW, Mitsubishi's with 6 wire 12V linear Air Fuel Ratio Sensor) 
+Uses OBD-2 port on wide band equipped vehicles, most honda/audi/VW, and also Mitsubishi's with 6 wire 12V "linear Air Fuel Ratio Sensor", also known as wide band o2 sensors to the rest of the world.  
 
 Logs Lambda readings and AFR values(Directly from OBD-2 Service Mode $01 PID 24) against RPM's(Directly from OBD-2 Service Mode $01 PID 0C) for 60 seconds, file is logged as datalog.txt file on the SDcard, and this data can be viewed easily with any spreadhseet program . Great for fine tuning on the dyno. file should be removed every logging run as datalog.txt file gets overwritten every log cycle. 
 
